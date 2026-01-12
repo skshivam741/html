@@ -1,22 +1,30 @@
-<html>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <h1>ChiPi Technologies Private Limited</h1>
+<div class="container">
+    <div class="left">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share<br>with the people in your life.</p>
+    </div>
 
-    <h2>ChiPi Technologies Private Limited</h2>
+    <div class="right">
+        <form onsubmit="return login()">
+            <input type="text" id="email" placeholder="Email address or phone number">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Log in</button>
+            <a href="#">Forgotten password?</a>
+            <hr>
+            <button type="button" class="create">Create new account</button>
+        </form>
+    </div>
+</div>
 
-    <h3>ChiPi Technologies Private Limited</h3>
-
-    <h4>ChiPi Technologies Private Limited</h4>
-
-    <h5>ChiPi Technologies Private Limited</h5>
-
-    <h6>ChiPi Technologies Private Limited</h6>
-
-    <p>
-      ChiPi Technologies has been named one of the top software development
-      companies in the country by a leading industry publication.
-    </p>
-
-  </body>
+<script src="script.js"></script>
+</body>
 </html>
